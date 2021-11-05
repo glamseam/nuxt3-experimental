@@ -1,6 +1,9 @@
 <template>
-    <div>
-        <!-- Remove this component to get started! -->
-        <NuxtWelcome />
-    </div>
+    <header>
+        Header
+    </header>
+    <NuxtPage />
+    <footer>
+        Footer
+    </footer>
 </template>
