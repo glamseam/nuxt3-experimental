@@ -6,6 +6,14 @@
         "start": "node .output/server/index.mjs"
     },
     "devDependencies": {
-        "nuxt3": "latest"
+        "@d-gs/eslint-config": "^0.1.4",
+        "@d-gs/eslint-config-for-vue": "^0.2.3",
+        "@d-gs/stylelint-config": "^0.2.3",
+        "eslint": "^8.1.0",
+        "nuxt3": "latest",
+        "stylelint": "^14.0.1",
+        "stylelint-config-recommended": "^6.0.0",
+        "stylelint-config-recommended-scss": "^5.0.1",
+        "stylelint-config-recommended-vue": "^1.0.0"
     }
 }
