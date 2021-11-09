@@ -1,3 +1,5 @@
+.npmrc
+
 ### Nuxt ###
 node_modules
 *.log
