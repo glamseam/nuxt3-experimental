@@ -3,6 +3,7 @@ import path from 'path'
 
 export default defineNuxtConfig({
     srcDir: 'src/',
+    ssr: false,
     css: [
         '@scss/style.scss'
     ],
@@ -22,7 +23,8 @@ export default defineNuxtConfig({
         },
         resolve: {
             alias: {
-                '@scss': path.join(__dirname, 'src/assets/scss')
+                '@scss': path.join(__dirname, 'src/assets/scss'),
+                '@sparrow': '@glamseam/sparrow'
             }
         }
     }
